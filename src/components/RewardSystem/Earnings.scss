@@ -1,0 +1,82 @@
+.earning-main {
+  @apply flex flex-col;
+}
+.container {
+  @apply w-[95%] border-[#116895] border  bg-white p-8 mx-auto mt-4 rounded-md;
+}
+.stat {
+  @apply flex flex-wrap gap-8;
+}
+// .earning-main {
+//   @apply;
+// }
+h1 {
+  @apply text-xl font-semibold text-blue mb-8;
+}
+.make-earning-wrapper {
+  @apply flex gap-4 flex-wrap;
+}
+.make-earnings {
+  @apply h-[4rem] rounded-full flex items-center justify-center bg-blue px-6 text-ash;
+}
+
+.total-earning-wrapper {
+  @apply w-[25rem] h-[20rem] rounded-[3rem] from-[#dbe0e3] to-[#1f77b1] bg-gradient-to-t   p-6;
+}
+.total-title-number-div {
+  @apply flex flex-row justify-between items-center;
+}
+.total-earning-number {
+  @apply text-[6rem] font-bold text-blue;
+}
+.total-earning-amount {
+  @apply text-[4rem] text-[#6f92a2] font-medium;
+}
+.total-earning-title {
+  @apply text-[2rem] text-[#c4deea] font-medium;
+}
+.earning-container {
+  @apply flex flex-wrap items-center justify-center space-x-8 space-y-8 px-8;
+}
+.earning-wrapper {
+  @apply w-[25rem] h-[15rem]  rounded-[3rem] px-8 py-8  border;
+}
+.title-number-div {
+  @apply flex flex-row justify-between items-center;
+}
+.title {
+  @apply font-medium text-2xl text-grey;
+}
+.number {
+  @apply text-[#6f92a2] text-7xl;
+}
+.amount {
+  @apply text-[#555] text-5xl font-semibold;
+}
+.cashback-p {
+  @apply mx-8 mb-8 text-2xl font-semibold text-blue;
+}
+.button-wrapper {
+  @apply flex items-center gap-2 mx-8 my-6;
+}
+.withdraw-btn {
+  @apply py-2 rounded-lg flex items-center justify-center bg-blue px-4 text-ash;
+}
+.modal-wrapper {
+  @apply fixed inset-0 w-screen h-screen bg-black/40;
+}
+.modal-div {
+  @apply w-1/2 flex flex-col p-4 border rounded-lg gap-4 bg-white relative mx-auto mt-20;
+}
+.modal-title {
+  @apply text-xl font-semibold text-blue;
+}
+.modal-close {
+  @apply absolute top-0 right-0 mr-4 mt-4 text-xl;
+}
+.modal-text {
+  @apply border rounded-sm text-grey text-xl p-4;
+}
+.select-cashout {
+  @apply p-2 border border-blue rounded;
+}
