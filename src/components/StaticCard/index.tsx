@@ -15,7 +15,7 @@ const StatisticCard = ({
         <span className="total-earning-title">{title}</span>
         <span className="total-earning-number">{value}</span>
       </div>
-      <span className="total-earning-amount">{amount}</span>
+      <span className="total-earning-amount">${amount}</span>
     </div>
   );
 };

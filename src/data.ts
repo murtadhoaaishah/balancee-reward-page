@@ -1,3 +1,16 @@
+export const menu = [
+  { icon: "/vectors/dashboard.svg", title: "Dashboard" },
+  { icon: "/vectors/repairs.svg", title: "Book a Repair" },
+  { icon: "/vectors/appointment.svg", title: "Appointments" },
+  { icon: "/vectors/reward.svg", title: "Reward system" },
+  { icon: "/vectors/vehicles.svg", title: "My Vehicles" },
+  { icon: "/vectors/history.svg", title: "Repair history" },
+  { icon: "/vectors/repairStation.svg", title: "Repair Stations" },
+  { icon: "/vectors/newsletter.svg", title: "Newsletter" },
+  { icon: "/vectors/support.svg", title: "Support" },
+  { icon: "", title: "Log Out" },
+];
+
 export const headerItems = [
   {
     label: "Date",

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./Earnings.scss";
-import WithdrawBox from "../WithdrawBox";
-import PromoBox from "../PromoBox";
-import CashbackHistory from "../CashbackHistory";
-import EarningOverview from "../EarningOverview";
+import WithdrawBox from "../../components/WithdrawBox";
+import PromoBox from "../../components/PromoBox";
+import CashbackHistory from "../../components/CashbackHistory";
+import EarningOverview from "../../components/EarningOverview";
 
 const RewardSystem = () => {
   const earnings = [

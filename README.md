@@ -37,8 +37,8 @@ An implementation Reward system page using html, css, React and Tailwindcss
 
 [Go Live](https://balancee-reward-page.vercel.app/)
 
-![screenshot](/public/screen1.png)
-![screenshot](/public/screen2.png)
+![screenshot](/public/vectors/Screenshot%202024-09-08%20at%2023.34.01.png)
+![screenshot](/public/vectors/Screenshot%202024-09-08%20at%2023.35.26.png)
 
 ## Contact
 

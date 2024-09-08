@@ -1,6 +1,6 @@
 import "./App.css";
 import Aside from "./components/Aside";
-import RewardSystem from "./components/RewardSystem";
+import RewardSystem from "./pages/RewardSystem";
 import Header from "./components/Header";
 
 function App() {

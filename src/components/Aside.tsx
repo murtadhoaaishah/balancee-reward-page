@@ -1,26 +1,13 @@
 import React, { useState } from "react";
+import { menu } from "../data";
 
 const Aside = () => {
   const [isActive, setIsActive] = useState(false);
 
-  const menu = [
-    { icon: "/vectors/dashboard.svg", title: "Dashboard" },
-    { icon: "", title: "Book a Repair" },
-    { icon: "/vectors/repairs.svg", title: "Appointments" },
-    { icon: "/public", title: "Reward system" },
-    { icon: "/vectors/vehicles.svg", title: "My Vehicles" },
-    { icon: "/vectors/history.svg", title: "Repair history" },
-    { icon: "/vectors/repairStation.svg", title: "Repair Stations" },
-    { icon: "", title: "Newsletter" },
-    { icon: "", title: "Support" },
-    { icon: "", title: "Log Out" },
-  ];
   return (
     <main className="items-center w-[18rem] py-6 px-12 border border-r-2 bg-white">
       <header className=" flex flex-col items-center mb-16">
-        <svg className="h-full w-full">
-          <use href="/sprites.svg#balancee-text-logo"></use>
-        </svg>
+        <img src="/vectors/logo.png" alt="logo" />
         <span className="bg-[#c3175b] h-12 w-12 text-white mb-4 text-3xl flex justify-center items-center">
           M
         </span>
