@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Balance Reward Systwm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An implementation Reward system page using html, css, React and Tailwindcss
 
-## Available Scripts
+## Prequisite
 
-In the project directory, you can run:
+- Your browser version should be up to date for better experience
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Earnings Overview:**
+   - Purpose: This section gives customers an overview of the total rewards or cashback they have earned through their bookings.
+   - Details to Display:
+     - Total Cashback Earned: Display the accumulated cashback from all bookings.
+     - Current Balance: Show the amount of cashback currently available for use or withdrawal.
+2. **Cashback History:**
+   - Purpose: Allows customers to view detailed information about their previous cashback transactions.
+   - Details to Display:
+     - Transaction Date: When the cashback was earned.
+     - Amount Earned: The specific cashback amount from each transaction.
+     - Booking Details: Brief information about the booking that generated the cashback (e.g., service name or booking ID).
+3. **Cashout Options:**
+   - Purpose: Enables customers to utilize their earned rewards.
+   - Cashout Methods:
+   - Direct Cashout: An option for customers to withdraw their cashback directly to their bank account or as a discount on future bookings.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Promo Codes: Customers can choose to convert their cashback into promo codes which they can apply to future bookings.
 
-### `npm test`
+## Tech/framework used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- Css
+- Typescript
+- TailwindCss
 
-### `npm run build`
+## Preview here
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Go Live](https://balancee-reward-page.vercel.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![screenshot](/public/screen1.png)
+![screenshot](/public/screen2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact
 
-### `npm run eject`
+If you want to contact me you can reach me at
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- https://github.com/murtadhoaaishah or
+- aishatmurtadho@gmail.com
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Addtional Info
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Balancee frontend internship assessment.
